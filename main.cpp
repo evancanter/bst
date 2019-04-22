@@ -22,13 +22,13 @@ void print(vector<T> vec){
 int main() {
 
     ifstream inFile;
-    inFile.open("test.txt");
+    inFile.open("listen.txt");
 
     BST_312<string> bst;
    
     string s;
     inFile >> s;
-    while (inFile) {;
+    while (inFile) {
         cout << "inserting ... " << s << endl;
         bst.insertItem(s);
         inFile >> s;
