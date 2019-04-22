@@ -22,7 +22,7 @@ void print(vector<T> vec){
 int main() {
 
     ifstream inFile;
-    inFile.open("listen.txt");
+    inFile.open("test.txt");
 
     BST_312<string> bst;
    
